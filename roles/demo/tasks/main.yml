@@ -1,0 +1,4 @@
+- name: Print Variables
+  hosts: localhost
+  roles:
+   - demo
