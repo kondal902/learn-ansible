@@ -1,3 +1,3 @@
-- name: Print ULR
+- name: Print URL
   ansible.builtin.debug:
-  msg: URL = {{ ULR }}
+    msg: URL = {{ URL }}   
