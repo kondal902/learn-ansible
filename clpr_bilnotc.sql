@@ -26,8 +26,7 @@ BEGIN
         L_REC_BNTC.NUM_DAYS:= 0;
     END IF;
     DEBUG.PR_DEBUG('CL','In clpr_bilnotc l_rec_bntc.num_days->'||L_REC_BNTC.NUM_DAYS);
-    CLPKS_ADVICES.PR_ADD_PARAMETER(P_TB_PARAM_LIST,'num_days',L_REC_BNTC.NUM_DAYS);
-	DEBUG.PR_DEBUG('CL','In clpr_bilnotc l_rec_bntc.num_days->'||L_REC_BNTC.NUM_DAYS);
+    CLPKS_ADVICES.PR_ADD_PARAMETER(P_TB_PARAM_LIST,'num_days',L_REC_BNTC.NUM_DAYS);	
 	
 END CLPR_BILNOTC;
 /
